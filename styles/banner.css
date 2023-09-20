@@ -1,0 +1,37 @@
+    .banner {
+        background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+        color: #fff;
+        text-align: center;
+        padding: 2.5em 2em;
+    }
+    
+    .banner-subtitulo {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .banner-texto {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin: 1em 0;
+    }
+    
+    .banner-pesquisa {
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 24px;
+        padding: 10px 24px;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .banner-pesquisa::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        background: url(../assets/Pesquisa.svg) no-repeat 1px;
+    }

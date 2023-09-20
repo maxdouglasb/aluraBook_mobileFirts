@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Alura Book</title>
+</head>
+
+
+
+<body>
+
+    <header class="cabecalho">
+        <div class="conteiner">
+            <input type="checkbox" id="menu" class="container-menu">
+            <label for="menu">
+                <span class="cabecalho-menu-hambuguer "></span>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu_titulo">Categorias</li>
+
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu-link">Progamação</a>
+                </li>
+
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu-link">Front-end</a>
+                </li>
+
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu-link">Infraestrutura</a>
+                </li>
+
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu-link">Business</a>
+                </li>
+
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu-link">Design & UX</a>
+                </li>
+
+
+
+
+
+            </ul>
+
+            <img src="./assets/Logo.svg" alt="logo" class="conteiner-imagem-logo">
+        </div>
+
+        <div class="conteiner">
+            <a href="#"><img src="./assets/Vector-1.svg" alt="" class="conteiner-imagem-vector1"></a>
+            <a href="#"><img src="./assets/Sacola.svg" alt="" class="conteiner-imagem-sacola"></a>
+            <a href="#"><img src="./assets/Vector.svg" alt="" class="conteiner-imagem-vector"></a>
+        </div>
+
+    </header>
+
+
+    <section class="banner">
+        <h2 class="banner-subtitulo">Já sabe por onde começar? </h2>
+        <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner-pesquisa" placeholder="Estamos aqui para lhe ajudar?">
+    </section>
+
+
+    <section class="carrossel">
+        <h2 class="carrossel-subtitulo">ÚLTIMOS LANÇAMENTOS </h2>
+        <div class="swiper">
+
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/MetricasAgeis.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/Nodejs.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/UX.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/Tuning.svg" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+
+        <div class="card">
+            <div class="card_descricao">
+                <div class="descricao">
+                    <h3 class="descricao_titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao_titulo_livro">Angular 11 e Firebase</h2>
+                    <p class="descricao_texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img class="img_angular" src="./assets/angular.svg" alt="">
+            </div>
+
+            <div class="card_botoes">
+                <ul class="botoes">
+                    <li class="botoes_itens"><img src="./assets/Vector-1.svg" alt=""></li>
+                    <li class="botoes_itens"><img src="./assets/Sacola.svg" alt=""></li>
+                </ul>
+
+                <a href="#" class="botoes_ancora">Saiba Mais</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="carrossel">
+        <h2 class="carrossel-subtitulo">ÚLTIMOS LANÇAMENTOS </h2>
+        <div class="swiper">
+
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/MetricasAgeis.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/Nodejs.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/UX.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./assets/Tuning.svg" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+
+        <div class="card">
+            <div class="card_descricao">
+                <div class="descricao">
+                    <h3 class="descricao_titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao_titulo_livro">Angular 11 e Firebase</h2>
+                    <p class="descricao_texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img class="img_angular" src="./assets/angular.svg" alt="">
+            </div>
+
+            <div class="card_botoes">
+                <ul class="botoes">
+                    <li class="botoes_itens"><img src="./assets/Vector-1.svg" alt=""></li>
+                    <li class="botoes_itens"><img src="./assets/Sacola.svg" alt=""></li>
+                </ul>
+
+                <a href="#" class="botoes_ancora">Saiba Mais</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 30,
+            slidesPerView: 2,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+
+            },
+            autoplay: {
+                delay: 2000,
+                desativarOnInteraction: true,
+
+
+
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
