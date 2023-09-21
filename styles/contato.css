@@ -1,0 +1,63 @@
+    .contato {
+        background-color: #fff;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 12px;
+    }
+    
+    .contato_titulo {
+        background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .contato_texto {
+        background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 400;
+        margin: 0.5em 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    
+    .contato_email {
+        padding: 1em;
+        border: 1px solid #0055c2;
+        border-radius: 24px;
+        width: 90%;
+        color: #002F52;
+    }
+    
+    .contato_email::placeholder {
+        font-family: 'Poppins', sans-serif;
+        color: #002F52;
+        background: url(../assets/Email.svg) no-repeat 1px;
+        padding-left: 2em;
+    }
+    
+    @media screen and (min-width: 820px) {
+        .contato {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3em;
+            padding: 1em 5em;
+        }
+        .contato_email {
+            width: 40%;
+        }
+        .contato_titulo {
+            font-size: 24px;
+            width: 70%;
+        }
+        .contato_texto {
+            width: 70%;
+        }
+    }

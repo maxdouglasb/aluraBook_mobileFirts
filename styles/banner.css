@@ -21,8 +21,8 @@
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 24px;
-        padding: 10px 24px;
         width: 100%;
+        padding: 1em;
         color: #fff;
         text-align: center;
     }
@@ -34,4 +34,16 @@
         color: #fff;
         text-align: center;
         background: url(../assets/Pesquisa.svg) no-repeat 1px;
+    }
+    
+    @media screen and (min-width: 820px) {
+        .banner-subtitulo {
+            font-size: 36px;
+        }
+        .banner-pesquisa {
+            width: 40%;
+        }
+        .banner-pesquisa::placeholder {
+            background-position: 4em;
+        }
     }

@@ -91,3 +91,19 @@
     border-radius: 30%;
     border: 3px solid #fff;
 }
+
+@media screen and (min-width: 820px) {
+    .carrossel-subtitulo {
+        font-size: 26px;
+    }
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+    .swiper {
+        width: 60%;
+    }
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
