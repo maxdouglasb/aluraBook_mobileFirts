@@ -146,17 +146,6 @@
     .opcoes_botoes {
         display: none;
     }
-    .lista-menu_item:hover {
-        background-color: #002F52;
-    }
-    .lista-menu-link:hover {
-        background: #0efff9;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
     .conteiner_texto {
         display: none;
     }
@@ -180,5 +169,16 @@
     }
     .conteiner_texto {
         display: block;
+    }
+    .lista-menu_item:hover {
+        background-color: #002F52;
+    }
+    .lista-menu-link:hover {
+        background: #0efff9;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-decoration: none;
+        text-transform: uppercase;
     }
 }

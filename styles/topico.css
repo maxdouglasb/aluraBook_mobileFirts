@@ -44,4 +44,7 @@
     .topicos {
         padding: 3em 25vw;
     }
+    .topicos_link:hover {
+        color: #002F52;
+    }
 }
